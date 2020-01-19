@@ -1,3 +1,15 @@
+# React-Countdown timer
+countdown timer which allows you to set the countdown duration and allows counting down (by millisec).
+The count down will supportstart/stop, pause/resume.
+1) it will maintain laps
+2) when user presses the "space" key, it starts a new lap.
+3) When the current lap exceeds a threshold the counter will provide a visual indication of that while continuing the countdown.
+4) If "space" key was pressed wrongly by mapping press backspace it will merge the current lap with the previous one.
+5) This countdown is also "smart" as it allows user to close the tab, reopen and it will keep its previous state. 
+E.g. While the countdown has started,refreshing the page would just continue the count down.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
